@@ -1,4 +1,4 @@
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth'; 
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import auth from '../firebase/firebase.config';

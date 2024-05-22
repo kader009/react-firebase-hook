@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDWY-56yY3AoapHho--7sg4m_PiOvN4t3Y',
-  authDomain: 'hookreact-fc32a.firebaseapp.com',
-  projectId: 'hookreact-fc32a',
-  storageBucket: 'hookreact-fc32a.appspot.com',
-  messagingSenderId: '742827510392',
-  appId: '1:742827510392:web:cb207f18cb0761cc077b8d',
+  apiKey: import.meta.env.VITE_HOOK_apiKey,
+  authDomain: import.meta.env.VITE_HOOK_authDomain,
+  projectId: import.meta.env.VITE_HOOK_projectId,
+  storageBucket: import.meta.env.VITE_HOOK_storageBucket,
+  messagingSenderId: import.meta.env.VITE_HOOK_messagingSenderId,
+  appId: import.meta.env.VITE_HOOK_appId,
 };
 
 const app = initializeApp(firebaseConfig);
